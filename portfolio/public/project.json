@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A responsive personal portfolio built with React and Tailwind CSS.",
+    "image": "imgs/Screenshot 2025-09-24 200950.png",
+    "tech": ["React", "Tailwind", "Vite"],
+    "link": "https://github.com/ICT-Courses/ict2233-ca-02-pehesara112455"
+  },
+  {
+    "title": "Halls and Rooms Reservation System",
+    "description": "A real-time weather app using OpenWeather API and styled with Bootstrap.",
+    "image": "imgs/Screenshot 2025-09-16 221843.png",
+    "tech": ["JavaScript", "Custom css", "API"],
+    "link": "https://github.com/pehesara112455/softstack"
+  },
+  {
+    "title": "Mobile store frontend",
+    "description": "A full-stack task manager with user authentication and CRUD operations.",
+    "image": "imgs/Screenshot 2025-09-13 175342.png",
+    "tech": ["React"],
+    "link": "https://github.com/ICT-Courses/ict2233-ca-01-pehesara112455"
+  }
+]

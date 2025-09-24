@@ -10,3 +10,27 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Description
+
+Personal Portfolio
+Welcome to my personal portfolio — a modern, responsive web experience built with React, Tailwind CSS, and Vite. This site highlights my passion for clean UI, scalable component architecture, and seamless user interaction.
+
+ Features
+
+- Animated page transitions for a smooth user experience
+- Mobile-friendly layout with dark mode support
+- Dynamic project cards powered by JSON data
+- Integrated contact form with EmailJS for direct messaging
+- Modular components for maintainability and scalability
+
+
+Technologies Used
+
+- React
+- Tailwind CSS
+- Vite
+- EmailJS
+- GitHub Pages
+

@@ -25,7 +25,7 @@ function Footer() {
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/uditha-pehesara-7786b4381/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_verification_details%3B4YSzT8LFR6y52uFdb352Jg%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-emerald-400 transition"
@@ -33,7 +33,7 @@ function Footer() {
             <i className="fab fa-linkedin"></i>
           </a>
           <a
-            href="https://instagram.com/your-profile"
+            href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-emerald-400 transition"
@@ -41,7 +41,7 @@ function Footer() {
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="https://facebook.com/your-profile"
+            href="https://web.facebook.com/uditha.pehesara.148"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-emerald-400 transition"
