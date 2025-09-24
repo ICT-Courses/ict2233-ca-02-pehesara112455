@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar";
 import image1 from '../assets/IMG_5599[1].JPG';
+import Footer from '../Components/Footer'
 
 function Home() {
   const [animatePage, setAnimatePage] = useState(false);
@@ -13,6 +14,7 @@ function Home() {
   return (
     <div className="min-h-[100vh] flex flex-col bg-white">
       <Navbar />
+      
 
       <div className="w-full flex flex-col bg-white px-10 md:px-40 pt-10">
         {/* Image + Text Section */}
@@ -54,6 +56,9 @@ function Home() {
           </button>
         </div>
       </div>
+        <Footer/>
+
+
     </div>
   );
 }
