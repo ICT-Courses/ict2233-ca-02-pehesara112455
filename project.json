@@ -2,12 +2,12 @@
   {
     "title": "Portfolio Website",
     "description": "A responsive personal portfolio built with React and Tailwind CSS.",
-    "image": "/assets/portfolio-preview.jpg",
+    "image": "/public/imgs/Screenshot 2025-09-24 200950.png",
     "tech": ["React", "Tailwind", "Vite"],
     "link": "https://yourportfolio.com"
   },
   {
-    "title": "Weather App",
+    "title": "Halls and Rooms Reservation System",
     "description": "A real-time weather app using OpenWeather API and styled with Bootstrap.",
     "image": "/assets/weather-app.jpg",
     "tech": ["JavaScript", "Bootstrap", "API"],
