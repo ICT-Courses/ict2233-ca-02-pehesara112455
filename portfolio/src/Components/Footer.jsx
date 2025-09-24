@@ -1,27 +1,63 @@
 import React from "react";
 
-function Footer (){
+function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white py-6 mt-5">
+      <div className="text-center">
+        <p className="mb-2">Designed and Developed by Pehesara</p>
+        <p className="mb-2">
+          <i className="fas fa-home text-gray-200 mr-2"></i>
+          24/1, Vihara road, Angammana, Ratnapura
+        </p>
+        <p className="mb-4">
+          <i className="fas fa-phone-alt text-gray-200 mr-2"></i>
+          071-6305331
+        </p>
 
-    return(
-        <footer className="bg-gray-900 text-white py-4 mt-5">
- <div className="text-center">
-    <p className="mb-2">
-        Designed and Developed by Pehesara
-    </p>
-     <p className="mb-2">
-        <i className="fas fa-home-alt text-gray-200"></i>
-
-        24/1, Vihara road, Angammana, Ratnapura
-    </p>
-     <p className="mb-2">
-        <i className="fas fa-phone-alt text-gray-200"></i>
-        071-6305331
-    </p>
- </div>
-          
-    
- 
- </footer>)
-
+        {/* Social Media Icons */}
+        <div className="flex justify-center gap-6 text-xl text-gray-300">
+          <a
+            href="https://github.com/pehesara112455"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-emerald-400 transition"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/your-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-emerald-400 transition"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://instagram.com/your-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-emerald-400 transition"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://facebook.com/your-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-emerald-400 transition"
+          >
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a
+            href="mailto:your@email.com"
+            className="hover:text-emerald-400 transition"
+          >
+            <i className="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 }
+
 export default Footer;

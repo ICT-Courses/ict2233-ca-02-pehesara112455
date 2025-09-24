@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function ProjectCard({ title, description, image, tech, link }) {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">

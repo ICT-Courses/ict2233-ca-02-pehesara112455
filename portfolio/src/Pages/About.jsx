@@ -65,7 +65,8 @@ function About() {
 
   return (
     <div className="min-h-[100vh] flex flex-col bg-white">
-      <Navbar />
+    
+      
 
       {/* About Me Heading */}
       <div
@@ -138,7 +139,7 @@ function About() {
           </div>
         </div>
       </section>
-      <Footer/>
+    
     </div>
   );
 }
