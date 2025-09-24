@@ -5,7 +5,7 @@ import Contact from './Pages/Contats';
 import Projects from './Pages/Project'
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
-
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -13,6 +13,8 @@ function App() {
      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+
         
         
 
